@@ -1014,6 +1014,20 @@ textarea.contact-input {
     100% { transform: rotate(1turn); }
   }
 
+  
+/* Styles for mobile portrait view */
+@media (max-width: 767px) {
+  .social-media {
+    margin-left: 0;
+    justify-content: center; /* Center the icons horizontally */
+    flex-wrap: wrap; /* Allow the icons to wrap onto multiple lines if necessary */
+  }
+
+  .social-media a {
+    font-size: 40px; /* Adjust the font size for smaller screens */
+    margin: 0 10px; /* Adjust the spacing between icons */
+  }
+}
 
 
   /**
