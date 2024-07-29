@@ -1019,7 +1019,8 @@ textarea.contact-input {
 @media (max-width: 767px) {
   .social-media {
     margin-left: 0;
-    justify-content: center; /* Center the icons horizontally */
+    justify-content: center;
+    align-items:center;/* Center the icons horizontally */
     flex-wrap: wrap; /* Allow the icons to wrap onto multiple lines if necessary */
   }
 
