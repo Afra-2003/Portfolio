@@ -1015,18 +1015,19 @@ textarea.contact-input {
   }
 
   
-/* Styles for mobile portrait view */
 @media (max-width: 767px) {
   .social-media {
-    margin-left: 0;
-    justify-content: center;
-    align-items:center;/* Center the icons horizontally */
-    flex-wrap: wrap; /* Allow the icons to wrap onto multiple lines if necessary */
+    margin: 30px auto; /* Center the container horizontally and add top margin */
+    display: flex;
+    justify-content: center; /* Center icons horizontally */
+    align-items: center; /* Center icons vertically if container has a height */
+    flex-wrap: wrap; /* Allow icons to wrap onto multiple lines if needed */
+    gap: 20px; /* Adjust spacing between icons for smaller screens */
   }
 
   .social-media a {
     font-size: 40px; /* Adjust the font size for smaller screens */
-    margin: 0 10px; /* Adjust the spacing between icons */
+    margin: 0; /* Remove extra margin to ensure proper spacing */
   }
 }
 
