@@ -306,7 +306,7 @@ body {
 .rotate-img { display: none; }
 
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("hero-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1137,6 +1137,10 @@ textarea.contact-input {
   }
 
   .copyright,
-  .footer-list { margin-inline: 0; }
+  .footer-list { 
+    margin-inline: 0; 
+     justify-content: center;
+    align-items: center;
+               }
 
 }
