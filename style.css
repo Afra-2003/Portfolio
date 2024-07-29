@@ -1088,7 +1088,41 @@ textarea.contact-input {
     left: 250px;
     background-color: var(--rufous);
   }
+  
+/* Mobile view styles */
+@media (max-width: 767px) {
+  .experience-content {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center content horizontally */
+  }
 
+  .experience-details {
+    margin-right: 0;
+    margin-bottom: 20px; /* Add space between details and photo */
+    text-align: center; /* Center text within details */
+  }
+
+  .experience-photo {
+    max-width: 100%; /* Allow image to be responsive */
+    margin-bottom: 20px; /* Add space below the photo */
+  }
+
+  .experience-title {
+    font-size: 20px; /* Adjust font size for mobile */
+  }
+
+  .experience-company {
+    font-size: 18px; /* Adjust font size for mobile */
+  }
+
+  .experience-duration {
+    font-size: 16px; /* Adjust font size for mobile */
+  }
+
+  .experience-description {
+    font-size: 14px; /* Adjust font size for mobile */
+  }
+}
 
 
   /**
