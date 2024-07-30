@@ -1029,8 +1029,12 @@ textarea.contact-input {
    */
   /* Media Queries */
 @media (max-width: 600px) {
-    .section {
+    .section .experience {
         padding: 1rem;
+      display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 80px;
     }
 
     .section-subtitle,
