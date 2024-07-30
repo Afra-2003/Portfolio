@@ -1015,41 +1015,6 @@ textarea.contact-input {
     background-color: var(--rufous);
   }
 
-   /**
-   * EXPERIENCES
-   */
-  /* Media Queries */
-
-    .section .experience {
-        padding: 1rem;
-      display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 80px;
-    }
-
-    .section-subtitle,
-    .section-title,
-    .section-text,
-    .experience-title,
-    .experience-company,
-    .experience-duration,
-    .experience-description {
-        text-align: center;
-    }
-
-    .experience-details,
-    .experience-photo {
-        margin-bottom: 1rem;
-    }
-
-    .experience-item {
-        text-align: center;
-    }
-
-    .experience-photo img {
-        width: 100%;
-    }
 
   /**
    * PORTFOLIO
@@ -1088,11 +1053,6 @@ textarea.contact-input {
   .contact-icon { padding: 30px; }
 
 
-@media only screen and (max-width: 767px) {
-  .hide-on-mobile {
-    display: none;
-  }
-}
 
  
   
