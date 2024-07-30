@@ -1028,7 +1028,7 @@ textarea.contact-input {
    * EXPERIENCES
    */
   /* Media Queries */
-@media (max-width: 600px) {
+
     .section .experience {
         padding: 1rem;
       display: grid;
@@ -1059,7 +1059,6 @@ textarea.contact-input {
     .experience-photo img {
         width: 100%;
     }
-}
 
   /**
    * PORTFOLIO
