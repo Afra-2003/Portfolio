@@ -1024,7 +1024,38 @@ textarea.contact-input {
     background-color: var(--rufous);
   }
 
+   /**
+   * EXPERIENCES
+   */
+  /* Media Queries */
+@media (max-width: 600px) {
+    .section {
+        padding: 1rem;
+    }
 
+    .section-subtitle,
+    .section-title,
+    .section-text,
+    .experience-title,
+    .experience-company,
+    .experience-duration,
+    .experience-description {
+        text-align: center;
+    }
+
+    .experience-details,
+    .experience-photo {
+        margin-bottom: 1rem;
+    }
+
+    .experience-item {
+        text-align: center;
+    }
+
+    .experience-photo img {
+        width: 100%;
+    }
+}
 
   /**
    * PORTFOLIO
