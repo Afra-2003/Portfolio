@@ -1028,9 +1028,9 @@ textarea.contact-input {
     background-color: var(--rufous);
   }
 
-.about { padding-block: 180px; }
+.experience { padding-block: 180px; }
 
-  .about .container {
+  .experience .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
